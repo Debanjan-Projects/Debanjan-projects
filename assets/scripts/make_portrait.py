@@ -6,8 +6,13 @@ Needs: pillow (with WebP), numpy.
 import base64
 import io
 
+import sys
+
 import numpy as np
 from PIL import Image, ImageDraw, ImageEnhance, ImageFilter
+
+sys.path.insert(0, "assets/scripts")
+from brand import BASE_CSS, MONO, SANS, finish, text_width  # noqa: E402
 
 SRC = "assets/src/photo.jpg"
 
@@ -72,19 +77,14 @@ PHOTO = data_uri(cutout(SRC), 640)
 STYLE = """
   .photo{opacity:1;animation:rise 1.1s cubic-bezier(.2,.8,.2,1) both}
   @keyframes rise{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:none}}
-  .ring{transform-origin:center;transform-box:fill-box;animation:spin 22s linear infinite}
-  @keyframes spin{to{transform:rotate(360deg)}}
   .pulse{animation:pulse 2.2s ease-in-out infinite}
   @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
-  .scan{animation:scan 6s ease-in-out 1.8s infinite}
-  @keyframes scan{0%{transform:translateY(-10px);opacity:0}10%{opacity:.45}90%{opacity:.45}100%{transform:translateY(360px);opacity:0}}
   .blink{animation:blink 1.1s steps(1) infinite}
   @keyframes blink{50%{opacity:0}}
   .fade{opacity:1;animation:fadein .8s ease both}
   @keyframes fadein{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
-  text{font-family:'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif}
-  .mono{font-family:'JetBrains Mono',Consolas,'SFMono-Regular',Menlo,monospace}
 """
+STYLE = "/*FONTS*/" + BASE_CSS + STYLE
 
 GRAD = """
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -128,7 +128,7 @@ def portrait(cx, cy, size, uid):
     px, py = cx - size / 2, cy - size * 0.56
     return f'''
 <circle cx="{cx}" cy="{cy}" r="{r * 1.55:.0f}" fill="url(#glow)"/>
-<g class="ring"><circle cx="{cx}" cy="{cy}" r="{r + 12:.1f}" fill="none" stroke="url(#ringg)" stroke-width="1.6" stroke-dasharray="3 7" opacity=".75"/></g>
+<circle cx="{cx}" cy="{cy}" r="{r + 12:.1f}" fill="none" stroke="url(#ringg)" stroke-width="1.6" stroke-dasharray="3 7" opacity=".6"/>
 <circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="url(#disc)"/>
 <circle cx="{cx}" cy="{cy}" r="{r:.1f}" fill="none" stroke="url(#ringg)" stroke-width="3"/>
 <clipPath id="pc{uid}">
@@ -149,16 +149,16 @@ card = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{SZ}" height="{SZ}" vi
 <rect width="{SZ}" height="{SZ}" fill="url(#bg)"/>
 <rect width="{SZ}" height="{SZ}" fill="url(#grid)"/>
 {portrait(210, 222, 330, "a")}
-<rect class="scan" x="0" y="20" width="{SZ}" height="2" fill="#22D3EE" opacity="0"/>
 <g class="fade" style="animation-delay:1.2s">
   <rect x="110" y="368" width="200" height="30" rx="15" fill="#0F172A" fill-opacity=".92" stroke="#2B3A5E"/>
   <circle class="pulse" cx="130" cy="383" r="4.5" fill="#34D399"/>
-  <text x="143" y="388" font-size="13" font-weight="600" fill="#E2E8F0">Open to collaboration</text>
+  <text x="142" y="388" font-size="12.5" font-weight="600" fill="#E2E8F0">Open to collaboration</text>
 </g>
 </g>
 <rect x=".5" y=".5" width="{SZ - 1}" height="{SZ - 1}" rx="28" fill="none" stroke="#1E293B"/>
 </svg>'''
-open("assets/dot-portrait.svg", "w", encoding="utf-8").write(card)
+W8 = [(SANS, 400), (SANS, 600), (SANS, 800), (MONO, 400)]
+open("assets/dot-portrait.svg", "w", encoding="utf-8").write(finish(card, W8))
 
 # ---------------------------------------------------------------- 2. wide banner
 BW, BH = 1000, 400
@@ -176,17 +176,17 @@ for i, (big, small) in enumerate(stats):
     d = 1.35 + i * 0.12
     parts.append(
         f'<g class="fade" style="animation-delay:{d:.2f}s"><rect x="{sx}" y="242" width="{w}" height="54" rx="10" fill="#0F172A" stroke="#26324F"/>'
-        f'<text x="{sx + 12}" y="266" font-size="18" font-weight="800" fill="url(#txt)">{big}</text>'
+        f'<text x="{sx + 12}" y="267" font-size="17" font-weight="800" fill="url(#txt)">{big}</text>'
         f'<text x="{sx + 12}" y="285" font-size="11" fill="#94A3B8" letter-spacing=".3">{small.upper()}</text></g>')
     sx += w + 10
 x, y = 430, 312
 for i, c in enumerate(chips):
-    w = 14 + len(c) * 7.2
+    w = 24 + text_width(c, 12, SANS, 600)
     d = 1.8 + i * 0.08
     parts.append(
         f'<g class="fade" style="animation-delay:{d:.2f}s"><rect x="{x:.0f}" y="{y}" width="{w:.0f}" height="24" rx="12" '
         f'fill="#111C34" stroke="#2B3A5E"/><text x="{x + w / 2:.0f}" y="{y + 16}" text-anchor="middle" '
-        f'font-size="12" fill="#C7D2FE">{c}</text></g>')
+        f'font-size="12" font-weight="600" fill="#C7D2FE">{c}</text></g>')
     x += w + 7
 
 banner = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{BW}" height="{BH}" viewBox="0 0 {BW} {BH}" role="img" aria-label="Debanjan Roy — Senior Full Stack and AI Engineer, Kolkata">
@@ -197,19 +197,18 @@ banner = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{BW}" height="{BH}" 
 <rect width="{BW}" height="{BH}" fill="url(#bg)"/>
 <rect width="{BW}" height="{BH}" fill="url(#grid)"/>
 {portrait(206, 214, 318, "b")}
-<rect class="scan" x="20" y="20" width="370" height="2" fill="#22D3EE" opacity="0"/>
 <line x1="405" y1="40" x2="405" y2="360" stroke="#1E293B"/>
 
 <g class="fade" style="animation-delay:.6s">
 <text x="430" y="70" class="mono" font-size="14" fill="#64748B">~/debanjan-roy $ whoami<tspan class="blink" fill="#22D3EE"> ▍</tspan></text>
 </g>
 <g class="fade" style="animation-delay:.85s">
-<text x="428" y="122" font-size="44" font-weight="800" fill="url(#txt)">Debanjan Roy</text>
+<text x="428" y="122" font-size="42" font-weight="800" letter-spacing="-1" fill="url(#txt)">Debanjan Roy</text>
 <text x="432" y="150" font-size="15" fill="#94A3B8">a.k.a. Babai · Kolkata, West Bengal, India</text>
 </g>
 <g class="fade" style="animation-delay:1.1s">
-<text x="430" y="190" font-size="17" fill="#E2E8F0" font-weight="600">{roles[0][0]} <tspan fill="#818CF8" font-weight="500">{roles[0][1]}</tspan></text>
-<text x="430" y="220" font-size="17" fill="#E2E8F0" font-weight="600">{roles[1][0]} <tspan fill="#E879F9" font-weight="500">{roles[1][1]}</tspan></text>
+<text x="430" y="190" font-size="16" fill="#E2E8F0" font-weight="600">{roles[0][0]} <tspan fill="#818CF8" font-weight="400">{roles[0][1]}</tspan></text>
+<text x="430" y="220" font-size="16" fill="#E2E8F0" font-weight="600">{roles[1][0]} <tspan fill="#E879F9" font-weight="400">{roles[1][1]}</tspan></text>
 </g>
 {"".join(parts)}
 <g class="fade" style="animation-delay:2.6s">
@@ -218,5 +217,5 @@ banner = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{BW}" height="{BH}" 
 </g>
 <rect x=".5" y=".5" width="{BW - 1}" height="{BH - 1}" rx="24" fill="none" stroke="#1E293B"/>
 </svg>'''
-open("assets/banner.svg", "w", encoding="utf-8").write(banner)
+open("assets/banner.svg", "w", encoding="utf-8").write(finish(banner, W8))
 print("photo bytes:", len(PHOTO))

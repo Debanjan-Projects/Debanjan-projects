@@ -43,7 +43,7 @@ At **Bengal IT Hub** I lead a remote engineering team, from planning and archite
 
 My path started with web development (MERN, PHP/Laravel, Java), moved into mobile (React Native, Flutter), and now centres on **Generative & Agentic AI**. I enjoy taking a raw idea, shaping the architecture, and shipping a product people actually use.
 
-> 💡 *"Build it right, ship it fast, then make it better."*
+> *"Build it right, ship it fast, then make it better."*
 
 </td>
 <td width="40%" valign="top" align="center">
@@ -56,9 +56,14 @@ My path started with web development (MERN, PHP/Laravel, Java), moved into mobil
 
 <div align="center">
 
-| 📍 Location | 💼 Experience | 🎯 Focus | 🤝 Open to |
-|:--:|:--:|:--:|:--:|
-| Kolkata, West Bengal, India | 1 year · 2 current roles | Agentic AI · Full Stack · Mobile | AI products · Freelance · Collaboration |
+<table>
+<tr>
+<td align="center" width="25%"><img src="./assets/icons/pin.svg" width="40" alt=""/><br/><b>Location</b><br/><sub>Kolkata, West Bengal, India</sub></td>
+<td align="center" width="25%"><img src="./assets/icons/briefcase.svg" width="40" alt=""/><br/><b>Experience</b><br/><sub>1 year · 2 current roles</sub></td>
+<td align="center" width="25%"><img src="./assets/icons/target.svg" width="40" alt=""/><br/><b>Focus</b><br/><sub>Agentic AI · Full Stack · Mobile</sub></td>
+<td align="center" width="25%"><img src="./assets/icons/chat.svg" width="40" alt=""/><br/><b>Open to</b><br/><sub>AI products · Freelance · Collaboration</sub></td>
+</tr>
+</table>
 
 </div>
 
@@ -70,13 +75,17 @@ My path started with web development (MERN, PHP/Laravel, Java), moved into mobil
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Agentic & Generative AI
+<img src="./assets/icons/ai.svg" width="44" alt=""/>
+
+### Agentic & Generative AI
 Multi-agent orchestration with **LangGraph**, tool-using agents with **LangChain**, **RAG** over private documents (ChromaDB + sentence-transformers), **local LLMs** with Ollama, and evaluation with LangSmith / DeepEval.
 
 </td>
 <td width="50%" valign="top">
 
-### 🌐 Full Stack Engineering
+<img src="./assets/icons/web.svg" width="44" alt=""/>
+
+### Full Stack Engineering
 End-to-end web platforms with **MERN**, **Spring Boot**, **Laravel** and **FastAPI**: REST APIs, authentication, relational and NoSQL data modelling, and responsive, animated UIs.
 
 </td>
@@ -84,13 +93,17 @@ End-to-end web platforms with **MERN**, **Spring Boot**, **Laravel** and **FastA
 <tr>
 <td width="50%" valign="top">
 
-### 📱 Cross-Platform Mobile
+<img src="./assets/icons/mobile.svg" width="44" alt=""/>
+
+### Cross-Platform Mobile
 Production apps with **React Native** and **Flutter**: a single codebase for Android & iOS with clean state management and API integration.
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 ML · Deep Learning · Data Science
+<img src="./assets/icons/ml.svg" width="44" alt=""/>
+
+### ML · Deep Learning · Data Science
 Data wrangling with **NumPy / Pandas**, classical ML with **scikit-learn**, deep learning with **PyTorch / TensorFlow**, and experiment notebooks in **Jupyter**.
 
 </td>
@@ -98,13 +111,17 @@ Data wrangling with **NumPy / Pandas**, classical ML with **scikit-learn**, deep
 <tr>
 <td width="50%" valign="top">
 
-### 👥 Leadership & Delivery
+<img src="./assets/icons/team.svg" width="44" alt=""/>
+
+### Leadership & Delivery
 Leading a remote team: sprint planning, task breakdown, code reviews, mentoring juniors, and owning client communication through to delivery.
 
 </td>
 <td width="50%" valign="top">
 
-### 🔐 Networking & Security
+<img src="./assets/icons/shield.svg" width="44" alt=""/>
+
+### Networking & Security
 Secure-by-default backends, role-based access, input validation, and a solid grounding in networking fundamentals.
 
 </td>
@@ -115,55 +132,7 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 
 <img src="./assets/headers/stack.svg" alt="Tech Stack" width="100%"/>
 
-<table align="center">
-<tr>
-<td align="center" width="170"><b>💻 Languages</b></td>
-<td><img src="https://skillicons.dev/icons?i=java,python,js,php,c,dart,html,css&theme=dark&perline=10" alt="Languages"/></td>
-</tr>
-<tr>
-<td align="center"><b>🎨 Frontend</b></td>
-<td><img src="https://skillicons.dev/icons?i=react,redux,tailwind,bootstrap,materialui,jquery,figma&theme=dark&perline=10" alt="Frontend"/></td>
-</tr>
-<tr>
-<td align="center"><b>📱 Mobile</b></td>
-<td><img src="https://skillicons.dev/icons?i=react,flutter,dart,androidstudio&theme=dark&perline=10" alt="Mobile"/><br/><sub>React Native · Flutter · Android Studio</sub></td>
-</tr>
-<tr>
-<td align="center"><b>⚙️ Backend</b></td>
-<td><img src="https://skillicons.dev/icons?i=nodejs,express,spring,laravel,fastapi,php&theme=dark&perline=10" alt="Backend"/></td>
-</tr>
-<tr>
-<td align="center"><b>🗄️ Databases</b></td>
-<td><img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,sqlite,firebase&theme=dark&perline=10" alt="Databases"/></td>
-</tr>
-<tr>
-<td align="center"><b>🧠 AI / ML / Data</b></td>
-<td>
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv&theme=dark&perline=10" alt="ML"/><br/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langgraph&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangSmith-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square&logoColor=white"/>
-<img src="https://img.shields.io/badge/RAG-6366F1?style=flat-square"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white" alt="Matplotlib"/>
-<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
-</td>
-</tr>
-<tr>
-<td align="center"><b>☁️ Cloud & DevOps</b></td>
-<td><img src="https://skillicons.dev/icons?i=aws,gcp,vercel,linux,ubuntu,githubactions&theme=dark&perline=10" alt="Cloud"/></td>
-</tr>
-<tr>
-<td align="center"><b>🧰 Tools</b></td>
-<td><img src="https://skillicons.dev/icons?i=git,github,vscode,idea,postman,npm&theme=dark&perline=10" alt="Tools"/></td>
-</tr>
-</table>
+<p align="center"><img src="./assets/stack.svg" alt="Tech stack: Java, Python, JavaScript, PHP, C, Dart, React, Redux, Tailwind, React Native, Flutter, Node.js, Express, Spring Boot, Laravel, FastAPI, MongoDB, MySQL, PostgreSQL, Firebase, LangChain, LangGraph, OpenAI, Gemini, Ollama, Hugging Face, PyTorch, TensorFlow, scikit-learn, NumPy, Pandas, AWS, Google Cloud, Vercel, Linux, Git, GitHub" width="100%"/></p>
 
 <br/>
 
@@ -174,7 +143,7 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 <td width="18%" valign="top"><b>Aug 2026 – Present</b><br/><sub>Kolkata · On-site</sub></td>
 <td valign="top">
 
-**🤖 AI Engineer** · *Sibiri Innovation (OPC) Pvt Ltd*
+**AI Engineer** · *Sibiri Innovation (OPC) Pvt Ltd*
 - Designing and building agentic AI products: **SIBIRI Educational Content OS** and **EngiMate**
 - LangGraph multi-agent pipelines, RAG, local LLM deployment with Ollama
 - Delivering client web platforms in Laravel / PHP / MySQL
@@ -185,7 +154,7 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 <td valign="top"><b>Apr 2026 – Present</b><br/><sub>Remote</sub></td>
 <td valign="top">
 
-**👨‍💻 Senior Software Engineer · Team Lead** · *Bengal IT Hub*
+**Senior Software Engineer · Team Lead** · *Bengal IT Hub*
 - Leading a remote engineering team across planning, architecture, code review and delivery
 - Owning client projects end to end, from requirements through deployment
 - Promoted from Junior Software Engineer (Biswa Bangla Hub, Dec 2025 – Apr 2026)
@@ -196,7 +165,7 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 <td valign="top"><b>Apr 2025 – Nov 2025</b><br/><sub>Kolkata · On-site</sub></td>
 <td valign="top">
 
-**🧠 Agentic AI Intern** · *Sibiri Innovation*
+**Agentic AI Intern** · *Sibiri Innovation*
 - Built AI agents and data workflows in Python with NumPy and LLM frameworks
 
 </td>
@@ -205,7 +174,7 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 <td valign="top"><b>Dec 2023 – Sep 2024</b><br/><sub>Kolkata</sub></td>
 <td valign="top">
 
-**🌱 Trainee · Full Stack, JavaScript, PHP & MySQL** · *Euphoria GenX · Nikhil Bharat Shiksha Parishad*
+**Trainee · Full Stack, JavaScript, PHP & MySQL** · *Euphoria GenX · Nikhil Bharat Shiksha Parishad*
 - MERN stack, JavaScript (ES6+, DOM, async), PHP & MySQL: CRUD, auth, APIs, database design
 
 </td>
@@ -220,7 +189,9 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 <tr>
 <td width="50%" valign="top">
 
-### 🎓 SIBIRI · Educational Content OS
+<img src="./assets/icons/edu.svg" width="44" alt=""/>
+
+### SIBIRI · Educational Content OS
 An **agentic AI operating system for teachers**. A teacher uploads notes; agents analyse the lesson, plan the content, and generate **quizzes, videos, labs and mind maps**, then publish to **Moodle**. The teacher becomes the reviewer, not the content creator.
 
 <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square"/> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Moodle-F98012?style=flat-square&logo=moodle&logoColor=white"/>
@@ -228,7 +199,9 @@ An **agentic AI operating system for teachers**. A teacher uploads notes; agents
 </td>
 <td width="50%" valign="top">
 
-### 🛠️ EngiMate · Offline AI Agent
+<img src="./assets/icons/cpu.svg" width="44" alt=""/>
+
+### EngiMate · Offline AI Agent
 A **fully offline AI assistant for engineering students** on Windows, macOS and Linux, powered by local LLMs. v2 adds **voice-to-text note-making** and **spoken-English practice**. Shipped as a compiled native app with per-machine licensing.
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/> <img src="https://img.shields.io/badge/Local_LLM-6366F1?style=flat-square"/> <img src="https://img.shields.io/badge/Speech--to--Text-0EA5E9?style=flat-square"/> <img src="https://img.shields.io/badge/Nuitka-F59E0B?style=flat-square"/>
@@ -240,7 +213,9 @@ A **fully offline AI assistant for engineering students** on Windows, macOS and 
 <tr>
 <td width="50%" valign="top">
 
-### 🔐 FastGate · AI Gate-Pass Platform
+<img src="./assets/icons/lock.svg" width="44" alt=""/>
+
+### FastGate · AI Gate-Pass Platform
 Complete product website for an **AI-enabled gate-pass and campus-security system**: multi-page, dark/light theming, premium UI with 3D visuals and motion.
 
 <img src="https://img.shields.io/badge/UI%2FUX-EC4899?style=flat-square&logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
@@ -250,7 +225,9 @@ Complete product website for an **AI-enabled gate-pass and campus-security syste
 </td>
 <td width="50%" valign="top">
 
-### ✈️ Dhanantari Tourism Suite
+<img src="./assets/icons/map.svg" width="44" alt=""/>
+
+### Dhanantari Tourism Suite
 Travel and education platforms for **Dhanantari Tourism Pvt Ltd** (Swapnokamal, Anukul & Rajeet Travels) and **Kamal Dutta Education**, built to grow into a full **ERP / SaaS** product.
 
 <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/> <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/ERP%20%2F%20SaaS-7C3AED?style=flat-square"/>
@@ -259,7 +236,7 @@ Travel and education platforms for **Dhanantari Tourism Pvt Ltd** (Swapnokamal, 
 </tr>
 </table>
 
-<p align="center">🍽️ Also see <a href="https://restoran-php-2gdh.vercel.app/"><b>Restoran</b></a>, a restaurant website built with PHP</p>
+<p align="center">Also see <a href="https://restoran-php-2gdh.vercel.app/"><b>Restoran</b></a>, a restaurant website built with PHP</p>
 
 <br/>
 
@@ -307,7 +284,7 @@ I'm always open to discussing **AI products**, **full-stack platforms**, **mobil
 
 <br/><br/>
 
-<sub>⭐ If you like my work, star a repo. It keeps me building.</sub>
+<sub>If you like my work, star a repo. It keeps me building.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:7C3AED,55:312E81,100:0B1020&section=footer" width="100%"/>
 
