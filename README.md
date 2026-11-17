@@ -31,13 +31,13 @@
 
 <br/>
 
-<img src="./assets/headers/about.svg" alt="About Me" width="100%"/>
+## 👨‍💻 About Me
 
 <table>
 <tr>
 <td width="60%" valign="top">
 
-I'm **Debanjan Roy** (Babai), a **Senior Software Engineer & AI Engineer** from **Kolkata, India**, with **1+ year of professional experience** building production-grade web, mobile and AI products.
+I'm **Debanjan Roy** (Babai), a **Senior Software Engineer & AI Engineer** from **Kolkata, India**, with **1 year of professional experience** building production-grade web, mobile and AI products.
 
 At **Bengal IT Hub** I lead a remote engineering team, from planning and architecture through code review and client delivery. At **Sibiri Innovation** I design **agentic AI systems**: multi-agent workflows with **LangGraph**, **RAG** pipelines, and **offline LLM** applications that run fully on-device.
 
@@ -58,19 +58,62 @@ My path started with web development (MERN, PHP/Laravel, Java), moved into mobil
 
 | 📍 Location | 💼 Experience | 🎯 Focus | 🤝 Open to |
 |:--:|:--:|:--:|:--:|
-| Kolkata, West Bengal, India | 1+ year · 2 current roles | Agentic AI · Full Stack · Mobile | AI products · Freelance · Collaboration |
+| Kolkata, West Bengal, India | 1 year · 2 current roles | Agentic AI · Full Stack · Mobile | AI products · Freelance · Collaboration |
 
 </div>
 
 <br/>
 
-<img src="./assets/headers/bring.svg" alt="What I Bring" width="100%"/>
+## 🧩 What I Bring
 
-<p align="center"><img src="./assets/cards/bring.svg" alt="Agentic AI · Full Stack · Mobile · ML/DL · Leadership · Security" width="100%"/></p>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Agentic & Generative AI
+Multi-agent orchestration with **LangGraph**, tool-using agents with **LangChain**, **RAG** over private documents (ChromaDB + sentence-transformers), **local LLMs** with Ollama, and evaluation with LangSmith / DeepEval.
+
+</td>
+<td width="50%" valign="top">
+
+### 🌐 Full Stack Engineering
+End-to-end web platforms with **MERN**, **Spring Boot**, **Laravel** and **FastAPI**: REST APIs, authentication, relational and NoSQL data modelling, and responsive, animated UIs.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📱 Cross-Platform Mobile
+Production apps with **React Native** and **Flutter**: a single codebase for Android & iOS with clean state management and API integration.
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 ML · Deep Learning · Data Science
+Data wrangling with **NumPy / Pandas**, classical ML with **scikit-learn**, deep learning with **PyTorch / TensorFlow**, and experiment notebooks in **Jupyter**.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 👥 Leadership & Delivery
+Leading a remote team: sprint planning, task breakdown, code reviews, mentoring juniors, and owning client communication through to delivery.
+
+</td>
+<td width="50%" valign="top">
+
+### 🔐 Networking & Security
+Secure-by-default backends, role-based access, input validation, and a solid grounding in networking fundamentals.
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-<img src="./assets/headers/stack.svg" alt="Tech Stack" width="100%"/>
+## 🛠️ Tech Stack
 
 <table align="center">
 <tr>
@@ -108,7 +151,7 @@ My path started with web development (MERN, PHP/Laravel, Java), moved into mobil
 <img src="https://img.shields.io/badge/RAG-6366F1?style=flat-square"/>
 <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logo=plotly&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white" alt="Matplotlib"/>
 <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"/>
 </td>
 </tr>
@@ -124,45 +167,122 @@ My path started with web development (MERN, PHP/Laravel, Java), moved into mobil
 
 <br/>
 
-<img src="./assets/headers/experience.svg" alt="Experience" width="100%"/>
+## 💼 Professional Experience
 
-<p align="center"><img src="./assets/cards/experience.svg" alt="Experience timeline: AI Engineer @ Sibiri Innovation · Senior Software Engineer & Team Lead @ Bengal IT Hub · Junior SWE @ Biswa Bangla Hub · Agentic AI Intern @ Sibiri · Trainee @ Euphoria GenX" width="100%"/></p>
+<table>
+<tr>
+<td width="18%" valign="top"><b>Aug 2026 – Present</b><br/><sub>Kolkata · On-site</sub></td>
+<td valign="top">
+
+**🤖 AI Engineer** · *Sibiri Innovation (OPC) Pvt Ltd*
+- Designing and building agentic AI products: **SIBIRI Educational Content OS** and **EngiMate**
+- LangGraph multi-agent pipelines, RAG, local LLM deployment with Ollama
+- Delivering client web platforms in Laravel / PHP / MySQL
+
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Apr 2026 – Present</b><br/><sub>Remote</sub></td>
+<td valign="top">
+
+**👨‍💻 Senior Software Engineer · Team Lead** · *Bengal IT Hub*
+- Leading a remote engineering team across planning, architecture, code review and delivery
+- Owning client projects end to end, from requirements through deployment
+- Promoted from Junior Software Engineer (Biswa Bangla Hub, Dec 2025 – Apr 2026)
+
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Apr 2025 – Nov 2025</b><br/><sub>Kolkata · On-site</sub></td>
+<td valign="top">
+
+**🧠 Agentic AI Intern** · *Sibiri Innovation*
+- Built AI agents and data workflows in Python with NumPy and LLM frameworks
+
+</td>
+</tr>
+<tr>
+<td valign="top"><b>Dec 2023 – Sep 2024</b><br/><sub>Kolkata</sub></td>
+<td valign="top">
+
+**🌱 Trainee · Full Stack, JavaScript, PHP & MySQL** · *Euphoria GenX · Nikhil Bharat Shiksha Parishad*
+- MERN stack, JavaScript (ES6+, DOM, async), PHP & MySQL: CRUD, auth, APIs, database design
+
+</td>
+</tr>
+</table>
 
 <br/>
 
-<img src="./assets/headers/projects.svg" alt="Featured Projects" width="100%"/>
+## 🚀 Featured Projects
 
-<p align="center">
-  <a href="https://sibiri.in"><img src="./assets/cards/project-sibiri.svg" alt="SIBIRI — Educational Content OS" width="49%"/></a>
-  <a href="https://sibiri.in"><img src="./assets/cards/project-engimate.svg" alt="EngiMate — Offline AI Agent" width="49%"/></a>
-</p>
-<p align="center">
-  <a href="https://fastgate.in"><img src="./assets/cards/project-fastgate.svg" alt="FastGate — AI Gate-Pass Platform" width="49%"/></a>
-  <a href="#"><img src="./assets/cards/project-dhanantari.svg" alt="Dhanantari Tourism Suite" width="49%"/></a>
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<p align="center"><sub>🍽️ Also see <a href="https://restoran-php-2gdh.vercel.app/"><b>Restoran</b></a>, a restaurant website built with PHP</sub></p>
+### 🎓 SIBIRI · Educational Content OS
+An **agentic AI operating system for teachers**. A teacher uploads notes; agents analyse the lesson, plan the content, and generate **quizzes, videos, labs and mind maps**, then publish to **Moodle**. The teacher becomes the reviewer, not the content creator.
+
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/> <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/> <img src="https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square"/> <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Moodle-F98012?style=flat-square&logo=moodle&logoColor=white"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 🛠️ EngiMate · Offline AI Agent
+A **fully offline AI assistant for engineering students** on Windows, macOS and Linux, powered by local LLMs. v2 adds **voice-to-text note-making** and **spoken-English practice**. Shipped as a compiled native app with per-machine licensing.
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/> <img src="https://img.shields.io/badge/Local_LLM-6366F1?style=flat-square"/> <img src="https://img.shields.io/badge/Speech--to--Text-0EA5E9?style=flat-square"/> <img src="https://img.shields.io/badge/Nuitka-F59E0B?style=flat-square"/>
+
+🔗 [sibiri.in](https://sibiri.in)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🔐 FastGate · AI Gate-Pass Platform
+Complete product website for an **AI-enabled gate-pass and campus-security system**: multi-page, dark/light theming, premium UI with 3D visuals and motion.
+
+<img src="https://img.shields.io/badge/UI%2FUX-EC4899?style=flat-square&logo=figma&logoColor=white"/> <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+
+🔗 [fastgate.in](https://fastgate.in)
+
+</td>
+<td width="50%" valign="top">
+
+### ✈️ Dhanantari Tourism Suite
+Travel and education platforms for **Dhanantari Tourism Pvt Ltd** (Swapnokamal, Anukul & Rajeet Travels) and **Kamal Dutta Education**, built to grow into a full **ERP / SaaS** product.
+
+<img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/> <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/ERP%20%2F%20SaaS-7C3AED?style=flat-square"/>
+
+</td>
+</tr>
+</table>
+
+<p align="center">🍽️ Also see <a href="https://restoran-php-2gdh.vercel.app/"><b>Restoran</b></a>, a restaurant website built with PHP</p>
 
 <br/>
 
-<img src="./assets/headers/now.svg" alt="Currently" width="100%"/>
+## 🔭 Currently
 
-<p align="center"><img src="./assets/cards/now.svg" alt="Currently building SIBIRI v1 and EngiMate v2, leading a remote team at Bengal IT Hub" width="100%"/></p>
+```yaml
+building:   [ "SIBIRI v1 — agentic content pipeline", "EngiMate v2 — voice notes & English practice" ]
+leading:    "Remote engineering team @ Bengal IT Hub"
+exploring:  [ "Multi-agent evaluation", "On-device LLMs", "Production RAG" ]
+open_to:    [ "AI product collaborations", "Freelance full-stack / mobile work" ]
+```
 
 <br/>
 
-<img src="./assets/headers/stats.svg" alt="GitHub Analytics" width="100%"/>
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Debanjan-Projects&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=0B1020&title_color=A78BFA&icon_color=22D3EE&text_color=CBD5E1&ring_color=7C3AED" alt="GitHub stats"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Debanjan-Projects&layout=compact&langs_count=8&hide_border=true&bg_color=0B1020&title_color=A78BFA&text_color=CBD5E1" alt="Top languages"/>
 
 <img src="https://streak-stats.demolab.com?user=Debanjan-Projects&hide_border=true&background=0B1020&ring=7C3AED&fire=E879F9&currStreakLabel=22D3EE&sideLabels=A78BFA&dates=94A3B8&stroke=1E293B&currStreakNum=FFFFFF&sideNums=FFFFFF" width="72%" alt="Streak"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Debanjan-Projects&bg_color=0B1020&color=A78BFA&line=7C3AED&point=22D3EE&area=true&area_color=7C3AED&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="Activity graph"/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=Debanjan-Projects&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" width="100%" alt="Trophies"/>
 
 </div>
 
@@ -178,7 +298,7 @@ My path started with web development (MERN, PHP/Laravel, Java), moved into mobil
 
 <br/>
 
-<img src="./assets/headers/connect.svg" alt="Let's Connect" width="100%"/>
+## 🤝 Let's Connect
 
 <div align="center">
 

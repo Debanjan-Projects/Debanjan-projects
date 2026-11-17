@@ -18,14 +18,14 @@ DEFS = """
 
 STYLE = f"""
 text{{font-family:{FONT}}} .m{{font-family:{MONO}}}
-.up{{opacity:0;animation:up .7s cubic-bezier(.2,.8,.2,1) forwards}}
+.up{{opacity:1;animation:up .7s cubic-bezier(.2,.8,.2,1) forwards}}
 @keyframes up{{from{{opacity:0;transform:translateY(10px)}}to{{opacity:1;transform:none}}}}
 .pulse{{animation:pulse 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}}
 @keyframes pulse{{0%,100%{{opacity:.9;transform:scale(1)}}50%{{opacity:.25;transform:scale(1.9)}}}}
 .draw{{stroke-dasharray:1200;stroke-dashoffset:1200;animation:draw 2.2s .2s ease forwards}}
 @keyframes draw{{to{{stroke-dashoffset:0}}}}
 .blink{{animation:blink 1s steps(1) infinite}} @keyframes blink{{50%{{opacity:0}}}}
-.type{{opacity:0;animation:type .01s forwards}} @keyframes type{{to{{opacity:1}}}}
+.type{{opacity:1;animation:type .01s forwards}} @keyframes type{{to{{opacity:1}}}}
 """
 
 
