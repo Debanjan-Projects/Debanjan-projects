@@ -31,7 +31,7 @@
 
 <br/>
 
-## 👨‍💻 About Me
+<img src="./assets/headers/about.svg" alt="About Me" width="100%"/>
 
 <table>
 <tr>
@@ -48,7 +48,7 @@ My path started with web development (MERN, PHP/Laravel, Java), moved into mobil
 </td>
 <td width="40%" valign="top" align="center">
 
-<img src="./assets/dot-portrait.svg" alt="Dot-matrix portrait of Debanjan Roy" width="100%"/>
+<img src="./assets/dot-portrait.svg" alt="Portrait of Debanjan Roy" width="100%"/>
 
 </td>
 </tr>
@@ -64,7 +64,7 @@ My path started with web development (MERN, PHP/Laravel, Java), moved into mobil
 
 <br/>
 
-## 🧩 What I Bring
+<img src="./assets/headers/bring.svg" alt="What I Bring" width="100%"/>
 
 <table>
 <tr>
@@ -113,7 +113,7 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 
 <br/>
 
-## 🛠️ Tech Stack
+<img src="./assets/headers/stack.svg" alt="Tech Stack" width="100%"/>
 
 <table align="center">
 <tr>
@@ -167,7 +167,7 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 
 <br/>
 
-## 💼 Professional Experience
+<img src="./assets/headers/experience.svg" alt="Professional Experience" width="100%"/>
 
 <table>
 <tr>
@@ -214,7 +214,7 @@ Secure-by-default backends, role-based access, input validation, and a solid gro
 
 <br/>
 
-## 🚀 Featured Projects
+<img src="./assets/headers/projects.svg" alt="Featured Projects" width="100%"/>
 
 <table>
 <tr>
@@ -263,7 +263,7 @@ Travel and education platforms for **Dhanantari Tourism Pvt Ltd** (Swapnokamal, 
 
 <br/>
 
-## 🔭 Currently
+<img src="./assets/headers/now.svg" alt="Currently" width="100%"/>
 
 ```yaml
 building:   [ "SIBIRI v1 — agentic content pipeline", "EngiMate v2 — voice notes & English practice" ]
@@ -274,15 +274,13 @@ open_to:    [ "AI product collaborations", "Freelance full-stack / mobile work" 
 
 <br/>
 
-## 📊 GitHub Activity
+<img src="./assets/headers/stats.svg" alt="GitHub Activity" width="100%"/>
 
 <div align="center">
-
 
 <img src="https://streak-stats.demolab.com?user=Debanjan-Projects&hide_border=true&background=0B1020&ring=7C3AED&fire=E879F9&currStreakLabel=22D3EE&sideLabels=A78BFA&dates=94A3B8&stroke=1E293B&currStreakNum=FFFFFF&sideNums=FFFFFF" width="72%" alt="Streak"/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Debanjan-Projects&bg_color=0B1020&color=A78BFA&line=7C3AED&point=22D3EE&area=true&area_color=7C3AED&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="Activity graph"/>
-
 
 </div>
 
@@ -298,7 +296,7 @@ open_to:    [ "AI product collaborations", "Freelance full-stack / mobile work" 
 
 <br/>
 
-## 🤝 Let's Connect
+<img src="./assets/headers/connect.svg" alt="Let's Connect" width="100%"/>
 
 <div align="center">
 
