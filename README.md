@@ -1,203 +1,198 @@
-<!-- ════════════════════════════════════════════════════════════════════
-     Debanjan Roy · github.com/Debanjan-Projects
-     Banner + dot portrait live in /assets (generated from my profile photo)
-     ════════════════════════════════════════════════════════════════════ -->
-
 <div align="center">
 
-<img src="./assets/banner.svg" alt="Debanjan Roy — Senior Full Stack & AI Engineer" width="100%"/>
+<img src="./assets/profile-header.svg" width="100%" alt="Debanjan Roy — Full Stack and AI Engineer. One year of experience. Kolkata, India." />
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=A78BFA&center=true&vCenter=true&width=720&lines=Senior+Full+Stack+Engineer+%C2%B7+Team+Lead;Agentic+AI+%C2%B7+LangChain+%C2%B7+LangGraph;ML+%C2%B7+Deep+Learning+%C2%B7+Data+Science;React+Native+%C2%B7+Flutter+%C2%B7+Spring+Boot+%C2%B7+Laravel;I+turn+ideas+into+products+that+ship+%F0%9F%9A%80" alt="Typing SVG"/>
-</a>
+<a href="https://www.linkedin.com/in/debanjan-roy7/"><img src="https://img.shields.io/badge/LinkedIn-Connect-162536?style=for-the-badge&amp;logo=linkedin&amp;logoColor=63DCC8" alt="Connect on LinkedIn" /></a>
+<a href="mailto:debanjanroy123456@gmail.com"><img src="https://img.shields.io/badge/Email-Say_hello-162536?style=for-the-badge&amp;logo=gmail&amp;logoColor=63DCC8" alt="Email Debanjan" /></a>
+<a href="https://github.com/Debanjan-Projects?tab=repositories"><img src="https://img.shields.io/badge/GitHub-View_my_work-162536?style=for-the-badge&amp;logo=github&amp;logoColor=63DCC8" alt="Explore my repositories" /></a>
 
-<br/>
+<br />
 
-<a href="https://www.linkedin.com/in/debanjan-roy7/"><img src="https://img.shields.io/badge/LinkedIn-debanjan--roy7-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="mailto:debanjanroy123456@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://leetcode.com/u/debaanjan_roy/"><img src="https://img.shields.io/badge/LeetCode-debaanjan__roy-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
-<a href="https://www.hackerrank.com/profile/debanjanroy12341"><img src="https://img.shields.io/badge/HackerRank-Profile-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black"/></a>
-<img src="https://komarev.com/ghpvc/?username=Debanjan-Projects&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS" alt="profile views"/>
+**Web platforms. AI workflows. Applications people can use.**
+
+[About](#01--about) &nbsp; / &nbsp; [Selected work](#02--selected-work) &nbsp; / &nbsp; [Toolkit](#03--technology-toolkit) &nbsp; / &nbsp; [Experience](#04--experience) &nbsp; / &nbsp; [Connect](#05--lets-connect)
 
 </div>
 
----
+## 01 / About
+
+I'm **Debanjan (Babai) Roy**, a **Full Stack & AI Engineer** based in **Kolkata, India**, with **1 year of experience**. I build across the product: interfaces, backend services, databases, and the AI workflows that connect them.
+
+My work includes educational AI systems, offline assistants, campus-security interfaces, and business applications. I'm particularly interested in making AI useful in everyday workflows, whether that means helping a teacher prepare a lesson or bringing an assistant onto a student's own computer.
+
+I work with **LangChain, LangGraph, RAG, and local LLMs**, alongside web and mobile technologies. My experience also includes coordinating development, reviewing code, and contributing to team delivery.
+
+> **Understand the problem. Build with purpose. Improve through iteration.**
+
+| Building | Exploring | Working with others |
+| :--- | :--- | :--- |
+| Full-stack products, agent workflows, and cross-platform apps | Machine learning, deep learning, data science, networking, and security | Sprint planning, code review, and product delivery |
+
+## 02 / Selected work
 
 <table>
 <tr>
-<td width="58%" valign="top">
+<td width="50%" valign="top">
 
-### 🧠 About me
+<sub>01 &nbsp; / &nbsp; AI FOR EDUCATION</sub>
 
-```js
-const debanjan = {
-  name:      "Debanjan (Babai) Roy",
-  basedIn:   "Kolkata, West Bengal, India",
-  roles: [
-    "Senior Software Engineer · Team Lead @ Bengal IT Hub",
-    "AI Engineer @ Sibiri Innovation (OPC) Pvt Ltd",
-  ],
-  focus:     ["Agentic AI", "Generative AI", "Full Stack", "Mobile"],
-  aiStack:   ["LangChain", "LangGraph", "RAG", "Ollama", "ML / DL"],
-  webStack:  ["MERN", "Spring Boot", "Laravel", "FastAPI"],
-  mobile:    ["React Native", "Flutter"],
-  alsoInto:  ["Networking", "Security", "Data Science"],
-  motto:     "Build it, ship it, then make it better.",
-};
-```
+### SIBIRI
+**Educational Content OS**
+
+An agentic AI system that turns teaching notes into lesson materials. Workflows analyse content and generate quizzes, videos, labs, and mind maps, with teacher review before publication to Moodle.
+
+**Stack**<br />
+LangGraph · LangChain · FastAPI · ChromaDB · Celery · PostgreSQL · Moodle API
 
 </td>
-<td width="42%" valign="top" align="center">
+<td width="50%" valign="top">
 
-<img src="./assets/dot-portrait.svg" alt="Dot-matrix portrait" width="100%"/>
+<sub>02 &nbsp; / &nbsp; LOCAL AI</sub>
+
+### EngiMate
+**Offline assistant for engineering students**
+
+An AI assistant powered by local language models for Windows, macOS, and Linux. Its scope includes voice-to-text notes and spoken-English practice, with per-machine licensing.
+
+**Stack**<br />
+Python · Ollama · Local LLMs · Speech-to-text · Nuitka
+
+[Explore Sibiri ↗](https://sibiri.in)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<sub>03 &nbsp; / &nbsp; WEB EXPERIENCE</sub>
+
+### FastGate
+**Campus-security product website**
+
+A multi-page website and UI/UX for an AI-enabled gate-pass platform. The experience includes responsive layouts, light and dark themes, animation, and 3D visuals.
+
+**Focus**<br />
+UI/UX · Responsive design · Theming · Animation
+
+[Visit FastGate ↗](https://fastgate.in)
+
+</td>
+<td width="50%" valign="top">
+
+<sub>04 &nbsp; / &nbsp; BUSINESS APPLICATIONS</sub>
+
+### Tourism & Education
+**Platforms for real business workflows**
+
+Work for Dhanantari Tourism Pvt Ltd, including Swapnokamal, Anukul, and Rajeet Travels, and Kamal Dutta Education, extending toward ERP and SaaS workflows.
+
+**Stack**<br />
+Laravel · PHP · MySQL
 
 </td>
 </tr>
 </table>
 
-### ⚡ What I do
+**Also built:** [Restoran — PHP restaurant website](https://restoran-php-2gdh.vercel.app/) &nbsp; · &nbsp; [Browse public repositories →](https://github.com/Debanjan-Projects?tab=repositories)
 
-- 🤖 **Agentic AI systems** — multi-agent workflows with **LangGraph + LangChain**, RAG pipelines (ChromaDB, sentence-transformers), local LLMs with **Ollama**
-- 🌐 **Full-stack products** — scalable web platforms with **MERN**, **Spring Boot**, **Laravel** and **FastAPI**
-- 📱 **Cross-platform apps** — **React Native** and **Flutter** apps from design to store
-- 📊 **ML · Deep Learning · Data Science** — from data wrangling with NumPy/Pandas to model training and evaluation
-- 👥 **Team leadership** — leading a remote engineering team, planning sprints, reviewing code, shipping client work
+## 03 / Technology toolkit
 
----
+My toolkit spans professional work, projects, and continued learning. **Full-stack development and AI applications are my main focus.**
 
-## 🛠️ Tech Stack
+**Languages**
 
-<div align="center">
+<img src="https://skillicons.dev/icons?i=python,java,js,php,c,dart,html,css&amp;theme=dark&amp;perline=8" alt="Python, Java, JavaScript, PHP, C, Dart, HTML, CSS" />
 
-**Languages**<br/>
-<img src="https://skillicons.dev/icons?i=java,python,js,php,c,dart,html,css&perline=10" />
+<sub>Python · Java · JavaScript · PHP · C · Dart · HTML · CSS</sub>
 
-**Frontend · Mobile**<br/>
-<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,flutter,figma&perline=10" />
-<img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" height="48"/>
+**Frontend & mobile**
 
-**Backend · Databases**<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,spring,laravel,fastapi,mongodb,mysql,postgres,firebase&perline=10" />
+<img src="https://skillicons.dev/icons?i=react,flutter,tailwind,bootstrap,figma&amp;theme=dark&amp;perline=8" alt="React, Flutter, Tailwind CSS, Bootstrap, Figma" />
 
-**AI · ML · Data**<br/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white"/>
-<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white"/>
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=for-the-badge&logoColor=white"/>
+<sub>React · React Native · Flutter · Tailwind CSS · Bootstrap · Figma</sub>
 
-**Cloud · DevOps · Tools**<br/>
-<img src="https://skillicons.dev/icons?i=aws,gcp,linux,git,github,vercel,vscode,postman&perline=10" />
+![React Native](https://img.shields.io/badge/React_Native-162536?style=flat-square&logo=react&logoColor=63DCC8)
 
-</div>
+**Backend & databases**
 
----
+<img src="https://skillicons.dev/icons?i=nodejs,express,spring,laravel,fastapi,mongodb,mysql,postgres,firebase&amp;theme=dark&amp;perline=9" alt="Node.js, Express, Spring Boot, Laravel, FastAPI, MongoDB, MySQL, PostgreSQL, Firebase" />
 
-## 💼 Experience
+<sub>Node.js · Express · Spring Boot · Laravel · FastAPI · MongoDB · MySQL · PostgreSQL · Firebase</sub>
 
-| When | Role | Where |
-|:--|:--|:--|
-| **Aug 2026 – Now** | 🤖 **AI Engineer** | Sibiri Innovation (OPC) Pvt Ltd · Kolkata |
-| **Apr 2026 – Now** | 👨‍💻 **Senior Software Engineer · Team Lead** | Bengal IT Hub · Remote |
-| Dec 2025 – Apr 2026 | Junior Software Engineer (Intern) | Biswa Bangla Hub · Kolkata |
+**AI & language models**
+
+![LangChain](https://img.shields.io/badge/LangChain-162536?style=for-the-badge&logo=langchain&logoColor=63DCC8)
+![LangGraph](https://img.shields.io/badge/LangGraph-162536?style=for-the-badge&logo=langgraph&logoColor=63DCC8)
+![Ollama](https://img.shields.io/badge/Ollama-162536?style=for-the-badge&logo=ollama&logoColor=63DCC8)
+![OpenAI](https://img.shields.io/badge/OpenAI-162536?style=for-the-badge&logo=openai&logoColor=63DCC8)
+![Gemini](https://img.shields.io/badge/Gemini-162536?style=for-the-badge&logo=googlegemini&logoColor=63DCC8)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-162536?style=for-the-badge&logo=chroma&logoColor=63DCC8)
+
+<sub>Agent workflows · Retrieval-augmented generation · Local inference · Document processing</sub>
+
+**Machine learning & data**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-162536?style=for-the-badge&logo=pytorch&logoColor=63DCC8)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-162536?style=for-the-badge&logo=scikitlearn&logoColor=63DCC8)
+![Pandas](https://img.shields.io/badge/Pandas-162536?style=for-the-badge&logo=pandas&logoColor=63DCC8)
+![NumPy](https://img.shields.io/badge/NumPy-162536?style=for-the-badge&logo=numpy&logoColor=63DCC8)
+
+**Cloud & development tools**
+
+<img src="https://skillicons.dev/icons?i=aws,gcp,linux,git,github,vercel,vscode,postman&amp;theme=dark&amp;perline=8" alt="AWS, Google Cloud, Linux, Git, GitHub, Vercel, VS Code, Postman" />
+
+<sub>AWS · Google Cloud · Linux · Git · GitHub · Vercel · VS Code · Postman</sub>
+
+## 04 / Experience
+
+**1 year of experience**, with internships and technical training also listed below. Concurrent roles are shown separately.
+
+| Period | Role | Organization |
+| :--- | :--- | :--- |
+| Aug 2026 – Present | **AI Engineer** | Sibiri Innovation (OPC) Pvt Ltd · Kolkata |
+| Apr 2026 – Present | **Senior Software Engineer · Team Lead** | Bengal IT Hub · Remote |
+| Dec 2025 – Apr 2026 | Junior Software Engineer Intern | Biswa Bangla Hub · Kolkata |
 | Apr 2025 – Nov 2025 | Agentic AI Intern | Sibiri Innovation · Kolkata |
-| Aug 2024 – Sep 2024 | PHP & MySQL Trainee | Euphoria GenX · Kolkata |
-| Jan 2024 – Mar 2024 | JavaScript Trainee | Nikhil Bharat Shiksha Parishad · Remote |
-| Dec 2023 – Feb 2024 | Full Stack (MERN) Trainee | Euphoria GenX · Kolkata |
 
----
+<details>
+<summary><strong>Earlier technical training</strong></summary>
 
-## 🚀 Featured Work
+| Period | Training | Organization |
+| :--- | :--- | :--- |
+| Aug 2024 – Sep 2024 | PHP & MySQL | Euphoria GenX · Kolkata |
+| Jan 2024 – Mar 2024 | JavaScript | Nikhil Bharat Shiksha Parishad · Remote |
+| Dec 2023 – Feb 2024 | Full Stack (MERN) | Euphoria GenX · Kolkata |
 
-<table>
-<tr>
-<td width="50%" valign="top">
+</details>
 
-### 🎓 SIBIRI — Educational Content OS
-An **agentic AI system for teachers**: upload notes → agents analyse the lesson, plan content, and generate quizzes, videos, labs and mind maps → publish to Moodle. The teacher reviews instead of creating from scratch.
+### Beyond project work
 
-`LangGraph` `LangChain` `RAG · ChromaDB` `FastAPI` `Celery` `PostgreSQL` `Moodle API`
+I practise programming and problem-solving alongside product development, and continue learning across AI engineering and software fundamentals.
 
-</td>
-<td width="50%" valign="top">
+[![LeetCode](https://img.shields.io/badge/LeetCode-View_profile-162536?style=flat-square&logo=leetcode&logoColor=63DCC8)](https://leetcode.com/u/debaanjan_roy/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-View_profile-162536?style=flat-square&logo=hackerrank&logoColor=63DCC8)](https://www.hackerrank.com/profile/debanjanroy12341)
 
-### 🛠️ EngiMate — Offline AI Agent
-A **fully offline AI assistant for engineering students** on Windows / macOS / Linux, powered by local LLMs. v2 adds voice-to-text note-making and spoken-English practice. Licensed per machine via [sibiri.in](https://sibiri.in).
+<details>
+<summary><strong>GitHub contribution activity</strong></summary>
 
-`Python` `Ollama` `Local LLMs` `Speech-to-Text` `Nuitka`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔐 FastGate — AI Gate-Pass Platform
-Full UI/UX website for an **AI-enabled gate-pass & campus-security product**: multi-page, dark/light themes, 3D visuals and animation.
-🔗 [fastgate.in](https://fastgate.in)
-
-`UI/UX` `Responsive` `Animations` `Theming`
-
-</td>
-<td width="50%" valign="top">
-
-### ✈️ Dhanantari Tourism Suite
-Travel and education platforms for **Dhanantari Tourism Pvt Ltd** (Swapnokamal, Anukul & Rajeet Travels) and **Kamal Dutta Education**, growing into an ERP / SaaS product.
-
-`Laravel` `PHP` `MySQL` `ERP`
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-🍽️ Also: [**Restoran Website**](https://restoran-php-2gdh.vercel.app/) — a PHP restaurant site
-
-</div>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Debanjan-Projects&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&bg_color=0B1020&title_color=A78BFA&icon_color=22D3EE&text_color=CBD5E1" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Debanjan-Projects&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0B1020&title_color=A78BFA&text_color=CBD5E1" />
-
-<img src="https://streak-stats.demolab.com?user=Debanjan-Projects&theme=tokyonight&hide_border=true&background=0B1020&ring=A78BFA&fire=E879F9&currStreakLabel=22D3EE" width="70%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Debanjan-Projects&bg_color=0B1020&color=A78BFA&line=22D3EE&point=E879F9&area=true&hide_border=true" width="100%"/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Debanjan-Projects&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" width="100%"/>
-
-</div>
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/Debanjan-Projects/Debanjan-Projects/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Debanjan-Projects/Debanjan-Projects/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Debanjan-Projects/Debanjan-Projects/output/github-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Debanjan-Projects/Debanjan-Projects/output/github-snake.svg" />
+  <img alt="Animated GitHub contribution calendar" src="https://raw.githubusercontent.com/Debanjan-Projects/Debanjan-Projects/output/github-snake.svg" width="100%" />
 </picture>
-</div>
+
+<!-- Generated by .github/workflows/snake.yml after its first successful run. -->
+
+</details>
+
+## 05 / Let's connect
+
+Interested in **AI products, full-stack platforms, or mobile applications**? I'd be happy to discuss a project or collaboration.
+
+**[debanjanroy123456@gmail.com](mailto:debanjanroy123456@gmail.com)** &nbsp; · &nbsp; [LinkedIn](https://www.linkedin.com/in/debanjan-roy7/) &nbsp; · &nbsp; [GitHub](https://github.com/Debanjan-Projects)
 
 ---
 
 <div align="center">
-
-### 🤝 Let's build something
-
-Open to **AI products, full-stack platforms, mobile apps** and collaboration.<br/>
-📫 **debanjanroy123456@gmail.com** · 💼 [LinkedIn](https://www.linkedin.com/in/debanjan-roy7/)
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:818CF8,100:E879F9&height=110&section=footer" width="100%"/>
-
+<sub><strong>DEBANJAN ROY</strong> &nbsp; / &nbsp; Kolkata, India<br />Build with purpose. Keep learning.</sub>
 </div>
